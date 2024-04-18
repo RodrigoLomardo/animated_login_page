@@ -46,6 +46,15 @@ body{
     margin: 15px 0 10px;
 }
 
+.container a#forget {
+    transition: 0.8s;
+}
+
+.container a#forget:hover {
+    color: blueviolet;
+    
+}
+
 .container button{
     background-color: #512da8;
     color: #fff;
@@ -58,6 +67,12 @@ body{
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.container button:hover {
+    opacity: 0.7;
 }
 
 .container button.hidden{
@@ -141,6 +156,13 @@ body{
     margin: 0 3px;
     width: 40px;
     height: 40px;
+    transition: 0.8s;
+    
+}
+
+.social-icons a:hover {
+    background-color: #5d40a1;
+    color: #fff;
 }
 
 .toggle-container{
